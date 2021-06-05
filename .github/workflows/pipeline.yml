@@ -34,3 +34,5 @@ jobs:
           heroku_app_name: "morning-bastion-28160" #Must be unique in Heroku
           heroku_email: "samz.aberi@gmail.com"
           healthcheck: "https://morning-bastion-28160.herokuapp.com/health"
+          checkstring: "ok"
+          rollbackonhealthcheckfailed: true
