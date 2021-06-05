@@ -33,3 +33,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "morning-bastion-28160" #Must be unique in Heroku
           heroku_email: "samz.aberi@gmail.com"
+          healthcheck: "https://morning-bastion-28160.herokuapp.com/health"
