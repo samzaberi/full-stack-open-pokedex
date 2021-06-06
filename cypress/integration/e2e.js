@@ -5,3 +5,5 @@ describe('Pokedex', function () {
         cy.contains('Pokémon and Pokémon character names are trademarks of Nintendo.')
     })
 })
+
+// end to end test
